@@ -1,0 +1,23 @@
+.w{
+    background-color: yellow;
+    border: 5px ridge black;height: 325px;
+    width: 320px;border-radius: 15px;
+}
+.display{
+    width: 315px ;height: 50px;border: 2px inset black;
+    border-radius: 10px;font-size: 40px;text-align:right;
+color: blue;background-color: pink;
+}
+.btn{
+height: 60px;width: 70px;
+margin-top: 5px;
+font-size: 50px;
+margin-left: 5px;background-color: ;
+}
+#P{
+    border: 5PX outset black;
+    height: auto;width: 325PX;background-color: brown;color: white;
+}
+.btn:hover{
+    background-color: red;color: blue;
+}

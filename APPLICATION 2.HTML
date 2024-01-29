@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>piyush application form</title>
+<head><TITLE>APPLICATION FORM </TITLE>	
+
+
+    
+    <style>
+#TRAPTI{color: black;
+    border: 2px SOLID black;
+    border-radius: 5PX ;
+    height: 110px;
+    width: 110PX;
+font-size: 15px;
+text-align: center;
+padding-top: 60px;
+float: right;
+margin-top: -60px;
+margin-right: 30px;
+}
+TH:hover{
+background-color: yellow;
+}
+TD:hover{
+background-color: green;
+}
+
+TR:nth-child(EVEN){
+    background-color: lightcoral;color: black;
+}
+
+    </style>
+
+</head>  
+<body bgcolor="PINK">
+<form>
+   <center> <h1 style="color: blue;border: 5px groove black;
+   height: 50px;width: 400px;">ADIT STUDENTS FORM</h1></center>
+<fieldset>
+<legend> APPLICATION FORM</legend>
+<br>
+FIRST NAME:<INPUT type="TEXT"
+PLACEHOLDER="FIRST NAME"size="20"
+ maxlength="30"
+ autocomplete="on"
+ required >(MAX 30 CHARACTER A-Z AND a-z)
+ <br><br>
+
+
+<div id="TRAPTI">
+ UPLOAD YOUR PHOTO
+<input type="file">
+</div>
+
+
+<BR><BR>
+LAST NAME:<INPUT type="TEXT"name="name"
+PLACEHOLDER="LAST NAME"size="20"
+ maxlength="30"
+ autocomplete="on"
+ required>
+ (MAX 30 CHARACTER A-Z AND a-z)
+ <br><br>
+<div class="piyush">
+FATHER'S NAME:<INPUT type="TEXT"name="name"
+PLACEHOLDER="FATHER'S  NAME"size="20"
+ maxlength="30"
+ autocomplete="on"
+ required>
+ (MAX 30 CHARACTER A-Z AND a-z)
+ <br><br>
+
+ MOTHER'S NAME:<INPUT type="TEXT"name="name"
+PLACEHOLDER="MOTHER'S  NAME"size="20"
+ maxlength="30"
+ autocomplete="on"
+ required>
+ (MAX 30 CHARACTER A-Z AND a-z)
+ <br><br>
+
+ EMAIL.ID:<INPUT type="TEXT"name="name"
+ PLACEHOLDER="EMAIL.ID"size="20"
+  maxlength="30"
+  autocomplete="on"
+  required>
+  
+  <br><br>
+MOBILE NUMBER:<INPUT type="number"
+PLACEHOLDER="PHONE NUMBER"
+maxlength="10"
+size="100"
+required>
+(10 DIGIT NUMBER)
+<br><br>
+</div>
+GENDER
+<br><br>
+<INPUT type="radio" ID="MALE"name="GENDER"VALUE="MALE">
+    <label FOR ="MALE">MALE</label>
+    
+    <INPUT type="radio" ID="FEMALE"name="GENDER"VALUE="MALE">
+        <label FOR ="FEMALE">FEMALE</label>
+        
+        <INPUT type="radio" ID="OTHERS"name="GENDER"VALUE="MALE">
+            <label FOR ="OTHERS">OTHERS</label>
+            <br><br>
+            ADDRESS
+<textarea cols="25"ROWS="5"
+required
+ style="background-color: lightseagreen;
+font-size: 20PX;">
+</textarea>
+<br><br>
+CITY:<INPUT type="TEXT"name="name"
+ PLACEHOLDER="CITY"size="20"
+  maxlength="30"
+  autocomplete="on"
+  required>
+  (MAX 30 CHARACTER A-Z AND a-z)
+  <br><br>
+  PIN CODE:<INPUT type="number"name="name"
+  PLACEHOLDER="PIN CODE"size="20"
+   maxlength="30"
+   autocomplete="on"
+   required>(10 DIGIT NUMBER)
+   <br><br>
+ 
+   COUNTRY:<INPUT type="TEXT"name="name"
+   PLACEHOLDER="COUNTRY"size="20"
+    maxlength="30"
+    autocomplete="on"
+    required>(10 DIGIT NUMBER)
+    <br><br>
+HOBBIES
+<INPUT TYPE ="CHECKBOX">DANCING
+    <INPUT TYPE ="CHECKBOX">SINGING
+        <INPUT TYPE ="CHECKBOX">PLAYING
+            <INPUT TYPE ="CHECKBOX">COOKING
+                <INPUT TYPE ="CHECKBOX">DANCING
+
+            <br><br>
+            
+UPLOAD YOUR FILE<BR>
+<input type="file">
+<br><BR>
+<H4>QUALIFICATION</H4>
+<table 
+border="3px"  
+bordercolor="black"
+height="200px"
+width="400px"
+cellpadding="5"cellspacing="4"
+bgcolor="white"
+style="color: black;
+">
+<tr>
+<TH>SR. </TH>
+<TH>CLASS X</TH>
+<TH>  CLASS XII</TH>
+<TH>GRADUATION</TH>
+<TH>MASTER</TH>
+</tr>
+<tr>
+    <TD>1 </TD>
+    <td></TD>
+    <td>  </TD>
+    <td></td>
+    <td></td>
+    </tr>
+
+    <tr>
+        <td>2 </TD>
+        <td></td>
+        <td>  </td>
+        <td></td>
+        <td></td>
+        </tr>
+
+
+        <tr>
+            <td>3 </TD>
+            <td></td>
+            <td>  </td>
+            <td></td>
+            <td></td>
+            </tr>
+    
+            <tr>
+                <td>4</TD>
+                <td></td>
+                <td>  </td>
+                <td></td>
+                <td></td>
+                </tr>
+        
+
+
+</table>
+
+
+
+
+
+<CENTER>
+<input type="SUBMIT">
+<input type="RESET"></CENTER>
+<BR><br>
+
+    
+
+</fieldset>
+</form>
+
+
+<script>
+$(document).ready(function(){
+
+var a = $(".piyush").html();
+
+console.log(a);
+});
+
+
+
+</script>
+
+    <body
+    </html>

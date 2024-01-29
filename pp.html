@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+
+
+    <style>
+.a{
+    color: red;
+    height: auto;
+    width: auto;
+    border: 5px solid black;
+position: absolute;
+left: 200px;
+top: 200px;
+text-align: center;
+padding: 20px;
+font-size: 50px;
+background-color: blanchedalmond;
+animation-name: aa;
+transition: 2s;
+
+}
+
+@media screen and (max-width:800px){
+    
+    .a{
+        color: rgb(217, 31, 31);
+    font-size: 100px;
+
+text-align: center;
+padding: 20px;
+font-size: 50px;
+background-color: rgb(255, 255, 18);
+border-radius: 20px;
+    }
+}
+
+.a:hover{
+    color: blue;
+    background-color: green;
+    font-size: 50px;
+border-radius: 50px;
+}
+
+
+th:hover{
+    color: green;
+    background-color: yellow;
+}td:hover{
+    color: rgb(144, 0, 255);
+    background-color: rgb(255, 0, 13);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="a">Piyush Bharadwaj</div>
+
+<table border="3px"
+cellpadding="2" >
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>City</th>
+        <th>Course</th>
+        <th>School</th>
+    </tr>
+
+
+    <tr>
+        <td>Piyush</td>
+        <td>piyush@gmail.com</td>
+        <td>Allahabad</td>
+        <td>Css</td>
+        <td>NSTI Allahabad</td>
+    </tr><tr>
+        <td>Piyush</td>
+        <td>piyush@gmail.com</td>
+        <td>Allahabad</td>
+        <td>Css</td>
+        <td>NSTI Allahabad</td>
+    </tr><tr>
+        <td>Piyush</td>
+        <td>piyush@gmail.com</td>
+        <td>Allahabad</td>
+        <td>Css</td>
+        <td>NSTI Allahabad</td>
+    </tr><tr>
+        <td>Piyush</td>
+        <td>piyush@gmail.com</td>
+        <td>Allahabad</td>
+        <td>Css</td>
+        <td>NSTI Allahabad</td>
+    </tr>
+</table>
+
+
+    <script>
+$(document).ready(function(){
+$(".a").click(function(){
+$(this).css("background","black")  
+});
+});
+
+
+    </script>
+
+
+</body>
+</html>
