@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+        font-weight: bolder;
+    text-shadow: 5px 10px 14px gray;
+        }
+        .div{
+            /* margin: 15rem; */
+            height: 30rem;
+
+            width: 95rem;
+            background-size: 100% 100%;
+            box-shadow: 20px 20px 10px gray;
+            animation: slider 10s linear infinite;
+        }
+@keyframes slider {
+    0%{
+        background-image: url(a.avif);
+    }
+    30%{
+        background-image: url(download.jpeg);
+        
+    }
+    60%{
+        background-image: url(a.avif);
+
+    }
+    80%{
+        background-image: url(download\ \(1\).jpeg);
+
+    }
+    100%{
+        background-image: url(download.jpeg);
+
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <h1>This is Animation Slider Made By Piyush Bharadwaj</h1>
+    <div class="div"></div>
+</body>
+</html>
